@@ -24,12 +24,24 @@
     border-radius: 5px;
     border: none;
 }
+
+/* header styles start */
+.header{
+    background-image: url(./images/developer.png), url(./images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position:top left, bottom right;
+    min-width: 1200px;
+    background-color: #FFF8F3;
+
+}
+
+
 /* nav styles start  */
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0 200px;
+    margin: 0  200px;
 }
 
 nav ul{
@@ -50,4 +62,29 @@ nav ul li{
 
 nav li a {
     text-decoration: none;
+}
+
+/* banner styles start */
+
+/* banner styles end */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+}
+.banner_content{
+    max-width: 580px;
+    
+}
+.banner_greetings{
+    font-size: 45px;
+    font-weight: 600;
+}
+.banner_title{
+    font-weight: bold;
+    font-size: 85px;
+}
+.banner_description{
+    font-size: 18px;
+    font-weight: 400;
 }
