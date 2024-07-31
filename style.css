@@ -1,0 +1,53 @@
+/* font add */
+.open-sans {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+
+/* shared style */
+.text_primary{
+    color: #FD6E0A;
+}
+.dark_2{
+    color: #474747;
+}
+
+.btn_primary{
+    background-color: #FD6E0A;
+    font-weight: 700;
+    color: white;
+    font-size: 20px;
+    padding: 18px 35px;
+    border-radius: 5px;
+    border: none;
+}
+/* nav styles start  */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 200px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+ 
+.nav_title{
+    font-weight: 800;
+    font-size: 45px;
+
+}
+
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav li a {
+    text-decoration: none;
+}
